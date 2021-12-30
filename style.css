@@ -1,11 +1,151 @@
 * {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-aside {
-    float: left;
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding: 30px;
 }
 
-.form {
-    border: 1px solid #ccc;
+.cellphone-background {
+    height: 600px;
+    padding-right: 20px;
+}
+
+.login-section {
+    border: 0.4px solid #dbdbdb;
+    padding: 0;
+    margin-top: 30px;
+
+    width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instagram-logo {
+    height: 61px;
+    width: 175px;
+    padding: 20px 0;
+
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    padding: 10px;
+    font-size: 12px;
+    width: 250px;
+    background-color: #fafafa;
+
+    border: 1px solid #dbdbdb;
+}
+
+
+.login-button {
+    margin-top: 20px;
+    padding: 10px; 
+
+    border: none;
+    background-color: rgb(40, 138, 218);
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.or {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #8e8e8e;
+    font-weight: 700;
+    font-size: 13px;
+
+    margin: 20px 0;
+}
+
+hr {
+    width: 100px;
+    background-color: blue;
+}
+
+p {
+    padding: 10px;
+}
+
+.login-facebook a {
+    color: #385185;
+}
+
+.login-facebook a img{
+    height: 20px;
+}
+
+.forgot-password {
+    color: #00376b;
+    padding-bottom: 30px;
+    margin-top: 15px;
+    font-size: 13px;
+
+}
+
+/*create password section*/
+.aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aside p {
+    padding: 20px 0;
+}
+
+.create-account {
+    margin-top: 20px;
+    border: 1px solid #dbdbdb;
+    padding: 20px;
+
+    font-size: 15px;
+}
+
+.create-account a{
+    color: #0095f6;
+}
+
+.stores img{
+    height: 50px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 20px;
+    line-height: 30px;;
+}
+
+footer div a {
+    color: rgb(136, 136, 136);
+    font-size: 12px;
 }
